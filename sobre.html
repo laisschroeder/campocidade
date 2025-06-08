@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre - Projeto Agrinho</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #e0f5e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #206b1f;
+    }
+
+    h1,
+    h2 {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #198754;
+    }
+
+    main {
+      max-width: 900px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1.25rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      background-color: #d1e7dd;
+      color: #0f5132;
+      border-radius: 5px;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    ul li i {
+      color: #198754;
+      font-size: 1.3rem;
+    }
+
+    /* Seção Equipe */
+    .equipe {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .membros {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .membro {
+      background-color: #d1e7dd;
+      border-radius: 10px;
+      padding: 1rem;
+      width: 180px;
+      box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .membro img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #198754;
+      margin-bottom: 0.8rem;
+    }
+
+    .membro h5 {
+      color: #0f5132;
+      margin-bottom: 0.3rem;
+      font-weight: 700;
+    }
+
+    .membro p {
+      font-size: 0.9rem;
+      color: #14532d;
+    }
+
+    /* Depoimentos */
+    .depoimentos {
+      margin-top: 3rem;
+    }
+
+    .depoimento-card {
+      background-color: #d1e7dd;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+      font-style: italic;
+      color: #0f5132;
+    }
+
+    .depoimento-autor {
+      margin-top: 1rem;
+      font-weight: 700;
+      color: #14532d;
+      text-align: right;
+    }
+
+    /* Botão voltar ao topo */
+    #btnTopo {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #198754;
+      border: none;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+
+    #btnTopo:hover {
+      background-color: #14532d;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand titulo-agrinho" href="index.html">Agrinho</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <h1>Sobre o Projeto Agrinho</h1>
+    <p>
+      O Projeto Agrinho é uma iniciativa que busca aproximar o campo e a cidade,
+      valorizando a tecnologia, cultura e sustentabilidade presentes em ambos os
+      ambientes. Nosso objetivo é fortalecer a consciência agrícola e urbana,
+      celebrando as parcerias e inovações que ajudam no desenvolvimento social e
+      econômico.
+    </p>
+    <p>
+      Por meio de eventos, concursos e atividades educativas, o Agrinho promove
+      a integração das comunidades rurais e urbanas, destacando a importância da
+      conexão entre esses dois mundos.
+    </p>
+
+    <h2>Nossa Missão</h2>
+    <p>
+      Educar e inspirar jovens e adultos para valorizar a agricultura familiar,
+      as práticas sustentáveis e as tecnologias que facilitam a vida no campo
+      e na cidade.
+    </p>
+
+    <h2>Valores</h2>
+    <ul>
+      <li><i class="bi bi-people-fill"></i>Respeito à cultura e tradições locais.</li>
+      <li><i class="bi bi-lightning-fill"></i>Valorização da inovação tecnológica.</li>
+      <li><i class="bi bi-tree-fill"></i>Preservação ambiental.</li>
+      <li><i class="bi bi-heart-fill"></i>Inclusão social e desenvolvimento comunitário.</li>
+    </ul>
+
+
+    <section class="depoimentos">
+      <h2>Depoimentos *ficticios*</h2>
+      <div class="depoimento-card">
+        “O Agrinho realmente mudou minha visão sobre como o campo e a cidade podem trabalhar juntos para um futuro melhor.”
+        <div class="depoimento-autor">— Lucas Almeida</div>
+      </div>
+      <div class="depoimento-card">
+        “Participar dos eventos do Agrinho me inspirou a valorizar mais as práticas sustentáveis no dia a dia.”
+        <div class="depoimento-autor">— Carla Fernandes</div>
+      </div>
+      <div class="depoimento-card">
+        “A iniciativa traz uma conexão verdadeira entre pessoas de diferentes realidades, fortalecendo nossa comunidade.”
+        <div class="depoimento-autor">— Pedro Gomes</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-success text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Projeto Agrinho. Todos os direitos reservados.</p>
+  </footer>
+
+  <button id="btnTopo" title="Voltar ao topo"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Mostrar botão voltar ao topo quando rolar a página
+    const btnTopo = document.getElementById('btnTopo');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        btnTopo.style.display = 'flex';
+      } else {
+        btnTopo.style.display = 'none';
+      }
+    });
+
+    // Ação do botão voltar ao topo
+    btnTopo.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+
+</html>
+

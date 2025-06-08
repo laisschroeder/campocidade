@@ -1,0 +1,90 @@
+
+body {
+    background-color: #d9f0d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d4a2d; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  h1, h2 {
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+    color: #1e3a1e;
+    margin-bottom: 1rem;
+  }
+  
+  
+  p, li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  
+  .navbar {
+    background-color: #276627 !important;
+  }
+  
+  
+  .navbar .nav-link {
+    color: #0e4b0e !important;
+    font-weight: 600;
+  }
+  
+  .navbar .nav-link.active {
+    color: #1d471d !important;
+    text-decoration: underline;
+  }
+  
+
+  .btn-success {
+    background-color: #3a8d3a;
+    border-color: #2f6f2f;
+  }
+  
+  .btn-success:hover {
+    background-color: #2f6f2f;
+    border-color: #245324;
+  }
+  
+
+  form label {
+    font-weight: 600;
+  }
+  
+
+  .container {
+    background-color: #ffffffcc; 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 100, 0, 0.1);
+  }
+  
+  
+  footer {
+    background-color: #276627;
+    font-size: 0.9rem;
+  }
+  
+  
+  .carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .titulo-agrinho {
+    color: #08560d !important; 
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  main.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
