@@ -43,7 +43,7 @@ Clone o repositório para sua máquina local:
 bash
 Copiar
 Editar
-git clone https://github.com/seu-usuario/projeto-agrinho.git
+git clone (https://github.com/laisschroeder/campocidade.git)
 Abra os arquivos .html diretamente no navegador de sua preferência.
 
 Para editar o conteúdo, basta modificar os arquivos HTML e CSS conforme desejado.
