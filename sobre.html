@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sobre - Projeto Agrinho</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
   <style>
     body {
       background-color: #e0f5e0;
@@ -37,7 +37,7 @@
       padding-left: 0;
     }
 
-    ul li {
+    .container .test ul li {
       background-color: #d1e7dd;
       color: #0f5132;
       border-radius: 5px;
@@ -55,7 +55,7 @@
       font-size: 1.3rem;
     }
 
-    /* Seção Equipe */
+    
     .equipe {
       margin-top: 3rem;
       text-align: center;
@@ -97,7 +97,7 @@
       color: #14532d;
     }
 
-    /* Depoimentos */
+   
     .depoimentos {
       margin-top: 3rem;
     }
@@ -119,7 +119,7 @@
       text-align: right;
     }
 
-    /* Botão voltar ao topo */
+    
     #btnTopo {
       position: fixed;
       bottom: 30px;
@@ -147,6 +147,7 @@
 </head>
 
 <body>
+ 
   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class="container">
       <a class="navbar-brand titulo-agrinho" href="index.html">Agrinho</a>
@@ -155,43 +156,46 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link active" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
           <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
+
   <main class="container my-5">
-    <h1>Sobre o Projeto Agrinho</h1>
-    <p>
-      O Projeto Agrinho é uma iniciativa que busca aproximar o campo e a cidade,
-      valorizando a tecnologia, cultura e sustentabilidade presentes em ambos os
-      ambientes. Nosso objetivo é fortalecer a consciência agrícola e urbana,
-      celebrando as parcerias e inovações que ajudam no desenvolvimento social e
-      econômico.
-    </p>
-    <p>
-      Por meio de eventos, concursos e atividades educativas, o Agrinho promove
-      a integração das comunidades rurais e urbanas, destacando a importância da
-      conexão entre esses dois mundos.
-    </p>
-
-    <h2>Nossa Missão</h2>
-    <p>
-      Educar e inspirar jovens e adultos para valorizar a agricultura familiar,
-      as práticas sustentáveis e as tecnologias que facilitam a vida no campo
-      e na cidade.
-    </p>
-
-    <h2>Valores</h2>
-    <ul>
-      <li><i class="bi bi-people-fill"></i>Respeito à cultura e tradições locais.</li>
-      <li><i class="bi bi-lightning-fill"></i>Valorização da inovação tecnológica.</li>
-      <li><i class="bi bi-tree-fill"></i>Preservação ambiental.</li>
-      <li><i class="bi bi-heart-fill"></i>Inclusão social e desenvolvimento comunitário.</li>
-    </ul>
+    <div class="test">
+      <h1>Sobre o Projeto Agrinho</h1>
+      <p>
+        O Projeto Agrinho é uma iniciativa que busca aproximar o campo e a cidade,
+        valorizando a tecnologia, cultura e sustentabilidade presentes em ambos os
+        ambientes. Nosso objetivo é fortalecer a consciência agrícola e urbana,
+        celebrando as parcerias e inovações que ajudam no desenvolvimento social e
+        econômico.
+      </p>
+      <p>
+        Por meio de eventos, concursos e atividades educativas, o Agrinho promove
+        a integração das comunidades rurais e urbanas, destacando a importância da
+        conexão entre esses dois mundos.
+      </p>
+  
+      <h2>Nossa Missão</h2>
+      <p>
+        Educar e inspirar jovens e adultos para valorizar a agricultura familiar,
+        as práticas sustentáveis e as tecnologias que facilitam a vida no campo
+        e na cidade.
+      </p>
+  
+      <h2>Valores</h2>
+      <ul>
+        <li><i class="bi bi-people-fill"></i>Respeito à cultura e tradições locais.</li>
+        <li><i class="bi bi-lightning-fill"></i>Valorização da inovação tecnológica.</li>
+        <li><i class="bi bi-tree-fill"></i>Preservação ambiental.</li>
+        <li><i class="bi bi-heart-fill"></i>Inclusão social e desenvolvimento comunitário.</li>
+      </ul>
+    </div>
 
 
     <section class="depoimentos">
@@ -219,7 +223,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    // Mostrar botão voltar ao topo quando rolar a página
+    
     const btnTopo = document.getElementById('btnTopo');
     window.addEventListener('scroll', () => {
       if (window.scrollY > 300) {
@@ -229,7 +233,7 @@
       }
     });
 
-    // Ação do botão voltar ao topo
+    
     btnTopo.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
